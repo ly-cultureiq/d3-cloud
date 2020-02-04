@@ -1,6 +1,6 @@
 {
   "name": "d3-cloud",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Generate word clouds in JavaScript.",
   "keywords": [
     "word",
