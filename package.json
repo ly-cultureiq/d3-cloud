@@ -15,7 +15,7 @@
     "name": "Jason Davies",
     "url": "https://www.jasondavies.com/"
   },
-  "main": "src/cloud.js",
+  "main": "build/d3-cloud.js",
   "module": "index",
   "jsnext:main": "index",
   "repository": {
@@ -23,14 +23,20 @@
     "url": "https://github.com/jasondavies/d3-cloud.git"
   },
   "scripts": {
+    "build": "webpack-cli --mode production"
   },
   "dependencies": {
     "d3": "^5.7.0",
     "d3-dispatch": "^1.0.3"
   },
   "devDependencies": {
-    "rollup": "0.27",
-    "tape": "4",
-    "uglify-js": "2"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
